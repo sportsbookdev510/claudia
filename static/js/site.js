@@ -227,10 +227,12 @@
       let n = 0;
       tiles.forEach((t) => {
         const d = t.dataset;
-        let ok =
+        const inSet =
           state.set === "all" ||
           (state.set === "film" ? d.plate === "1" : d.her === "1");
-        if (ok && state.batch) ok = d.batch === state.batch;
+        // A chosen batch lists every shot in it. Her / In the film would
+        // hide place shots such as ev-18-waymo101 and ev-20-fix.
+        let ok = state.batch ? d.batch === state.batch : inSet;
         if (ok && state.look) ok = d.look === state.look;
         if (ok && q)
           ok =
