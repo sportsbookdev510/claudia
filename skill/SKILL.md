@@ -22,7 +22,7 @@ She is an open character: anyone may make work with her (credit "Claudia by anab
 
 
 
-The gallery, with every image and its exact prompt: https://claudia.gallery · the wiki: https://claudia.gallery/wiki · MCP server: https://127.0.0.1:5505/mcp
+The gallery, with every image and its exact prompt: https://claudia.media · the wiki: https://claudia.media/wiki · MCP server: https://claudia.media/mcp
 
 
 
@@ -258,7 +258,7 @@ check that says it is done. Their files are in `references/formats.md`.
 
 \- Leave "feat. Claudia" out of the artist field: streaming services would merge it into unrelated artists called Claudia.
 
-\- Credit her in the description and on the cover: "Claudia is an open character by anabology (claudia.gallery)".
+\- Credit her in the description and on the cover: "Claudia is an open character by anabology (claudia.media)".
 
 \- If any of it is AI-made (vocals, music or lyrics), say so; human-made work needs no label.
 
@@ -268,7 +268,7 @@ check that says it is done. Their files are in `references/formats.md`.
 
 
 
-The norms in full: `LICENSE.md` ("Songs with her") or https://claudia.gallery/use/#songs-with-her.
+The norms in full: `LICENSE.md` ("Songs with her") or https://claudia.media/use/#songs-with-her.
 
 
 

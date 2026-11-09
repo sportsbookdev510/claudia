@@ -2,8 +2,8 @@
     "liveServer.settings.port": 5506,
     "liveServer.settings.https": {
         "enable": true,
-        "cert": "C:\\Users\\Shaman\\Downloads\\claudia.gallery (1)\\claudia.gallery\\.vscode\\certs\\cert.pem",
-        "key": "C:\\Users\\Shaman\\Downloads\\claudia.gallery (1)\\claudia.gallery\\.vscode\\certs\\key.pem",
+        "cert": "C:\\Users\\Shaman\\Downloads\\claudia.media (1)\\claudia.media\\.vscode\\certs\\cert.pem",
+        "key": "C:\\Users\\Shaman\\Downloads\\claudia.media (1)\\claudia.media\\.vscode\\certs\\key.pem",
         "passphrase": ""
     }
 }

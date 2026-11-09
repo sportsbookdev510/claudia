@@ -6,25 +6,25 @@
       name="viewport"
       content="width=device-width,initial-scale=1,viewport-fit=cover"
     />
-    <title>For agents · claudia.gallery</title>
+    <title>For agents · claudia.media</title>
     <meta
       name="description"
-      content="claudia.gallery for agents: an MCP server, a skill, llms.txt and a JSON API."
+      content="claudia.media for agents: an MCP server, a skill, llms.txt and a JSON API."
     />
-    <link rel="canonical" href="https://claudia.gallery/agents/" />
+    <link rel="canonical" href="https://claudia.media/agents/" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="claudia.gallery" />
-    <meta property="og:title" content="For agents · claudia.gallery" />
+    <meta property="og:site_name" content="claudia.media" />
+    <meta property="og:title" content="For agents · claudia.media" />
     <meta
       property="og:description"
-      content="claudia.gallery for agents: an MCP server, a skill, llms.txt and a JSON API."
+      content="claudia.media for agents: an MCP server, a skill, llms.txt and a JSON API."
     />
-    <meta property="og:url" content="https://claudia.gallery/agents/" />
-    <meta property="og:image" content="https://claudia.gallery/og/agents.jpg" />
+    <meta property="og:url" content="https://claudia.media/agents/" />
+    <meta property="og:image" content="https://claudia.media/og/agents.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:image"
-      content="https://claudia.gallery/og/agents.jpg"
+      content="https://claudia.media/og/agents.jpg"
     />
     <meta name="theme-color" content="#07051a" />
     <link rel="icon" href="/favicon.png" type="image/png" />
@@ -61,7 +61,7 @@
   <body class="">
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-h">
-      <a class="brand" href="/" aria-label="claudia.gallery, home"
+      <a class="brand" href="/" aria-label="claudia.media, home"
         ><span class="streak"></span>Claudia<small>.gallery</small></a
       >
       <button class="menu-b" aria-expanded="false" aria-controls="nav">
@@ -83,7 +83,7 @@
     </header>
     <main id="main">
       <header class="doc-h">
-        <div class="crumbs lab"><a href="/">claudia.gallery</a> / agents</div>
+        <div class="crumbs lab"><a href="/">claudia.media</a> / agents</div>
         <h1>For agents</h1>
         <p class="dek">
           The same gallery, for agents: an MCP server at /mcp, an installable
@@ -115,7 +115,7 @@
         <article class="prose">
           <h2 id="the-mcp-server">The MCP server</h2>
           <p>
-            <code>https://127.0.0.1:5505/mcp</code> speaks the Model Context
+            <code>https://claudia.media/mcp</code> speaks the Model Context
             Protocol over Streamable HTTP. It is public and read-only: no
             account, no key, no state.
           </p>
@@ -123,11 +123,11 @@
           <p>Claude Code:</p>
           <div class="codeblock">
             <button class="copy">Copy</button>
-            <pre><code>claude mcp add --transport http claudia https://127.0.0.1:5505/mcp</code></pre>
+            <pre><code>claude mcp add --transport http claudia https://claudia.media/mcp</code></pre>
           </div>
           <p>
             Claude (web and desktop): Settings → Connectors → Add custom
-            connector, and paste <code>https://127.0.0.1:5505/mcp</code>.
+            connector, and paste <code>https://claudia.media/mcp</code>.
           </p>
           <p>Cursor, Windsurf and other clients that take a JSON config:</p>
           <div class="codeblock">
@@ -135,7 +135,7 @@
             <pre><code>{
   &quot;mcpServers&quot;: {
     &quot;claudia&quot;: {
-      &quot;url&quot;: &quot;https://127.0.0.1:5505/mcp&quot;
+      &quot;url&quot;: &quot;https://claudia.media/mcp&quot;
     }
   }
 }</code></pre>
@@ -144,11 +144,11 @@
           <div class="codeblock">
             <button class="copy">Copy</button>
             <pre><code>[mcp_servers.claudia]
-url = &quot;https://127.0.0.1:5505/mcp&quot;</code></pre>
+url = &quot;https://claudia.media/mcp&quot;</code></pre>
           </div>
           <p>
             Clients that only speak stdio can bridge with
-            <code>npx mcp-remote https://127.0.0.1:5505/mcp</code>.
+            <code>npx mcp-remote https://claudia.media/mcp</code>.
           </p>
           <h3 id="tools">Tools</h3>
           <h3 id="claudia-canon"><code>claudia_canon</code></h3>
@@ -218,7 +218,7 @@ url = &quot;https://127.0.0.1:5505/mcp&quot;</code></pre>
           </p>
           <h3 id="get-guide"><code>get_guide</code></h3>
           <p>
-            An article of the Claudia wiki (claudia.gallery/wiki) as Markdown,
+            An article of the Claudia wiki (claudia.media/wiki) as Markdown,
             distilled from the nine productions. start: making a film of your
             own (the six checkpoints where a person decides, the accounts, the
             spending rules, the first conversation, what to build first).
@@ -382,7 +382,7 @@ url = &quot;https://127.0.0.1:5505/mcp&quot;</code></pre>
           </p>
           <div class="codeblock">
             <button class="copy">Copy</button>
-            <pre><code>curl -sL https://127.0.0.1:5505/skill/claudia-skill.zip -o claudia-skill.zip
+            <pre><code>curl -sL https://claudia.media/skill/claudia-skill.zip -o claudia-skill.zip
 unzip -o claudia-skill.zip -d ~/.claude/skills/</code></pre>
           </div>
           <p>
@@ -395,14 +395,14 @@ unzip -o claudia-skill.zip -d ~/.claude/skills/</code></pre>
           <h2 id="llmstxt-and-markdown">llms.txt and Markdown</h2>
           <p>
             <a
-              href="https://127.0.0.1:5505/llms.txt"
+              href="https://claudia.media/llms.txt"
               rel="noopener"
               target="_blank"
-              >https://127.0.0.1:5505/llms.txt</a>
+              >https://claudia.media/llms.txt</a>
             >
             indexes the site for language models;
             <a
-              href="https://127.0.0.1:5505/llms-full.txt"
+              href="https://claudia.media/llms-full.txt"
               rel="noopener"
               target="_blank"
               >llms-full.txt</a
@@ -466,7 +466,7 @@ unzip -o claudia-skill.zip -d ~/.claude/skills/</code></pre>
       <p class="safe">It's now safe to turn off your computer.</p>
       <div class="f-cols">
         <div>
-          <h4>claudia.gallery</h4>
+          <h4>claudia.media</h4>
           <p>
             Claudia is an open character from nine music videos directed by
             anabology and made with Claude, Midjourney, Seedance, Wan and Suno.

@@ -1,4 +1,4 @@
-/* claudia.gallery — split-flaps, the hero, loops, galleries, the lightbox, the player. No dependencies (hls.js loads on demand). */
+/* claudia.media — split-flaps, the hero, loops, galleries, the lightbox, the player. No dependencies (hls.js loads on demand). */
 (() => {
   "use strict";
   const $ = (s, r = document) => r.querySelector(s);
